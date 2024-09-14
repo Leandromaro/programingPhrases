@@ -20,14 +20,14 @@ This project provides a simple bash script to display inspirational messages. It
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Leandromaro/spiringMessagesBash.git
-    cd spiringMessagesBash
+    git clone https://github.com/Leandromaro/programingPhrases.git
+    cd programingPhrases
     ```
 
 2. Make the script executable:
 
     ```bash
-    chmod +x spiringMessages.sh
+    chmod +x phrases.sh
     ```
 
 ## Usage
@@ -35,7 +35,7 @@ This project provides a simple bash script to display inspirational messages. It
 Run the script directly:
 
 ```bash
-./spiringMessages.sh
+./phrases.sh
 ```
 
 ## Customization
@@ -53,10 +53,10 @@ Add one message per line.
 To display an inspirational message every time you open a terminal, add the following line to your `.bashrc` or `.bash_profile` file:
 
 ```bash
-touch ~/path/to/spiringMessagesBash/spiringMessages.sh
+touch ~/path/to/spiringMessagesBash/phrases.sh
 ```
 
-Replace `~/path/to/spiringMessagesBash/spiringMessages.sh` with the actual path to the script.
+Replace `~/path/to/spiringMessagesBash/phrases.sh` with the actual path to the script.
 
 1. Open your `.bashrc` or `.bash_profile` file in an editor:
 
@@ -69,7 +69,7 @@ Replace `~/path/to/spiringMessagesBash/spiringMessages.sh` with the actual path 
 2. Add the following line at the end of the file:
 
     ```bash
-    ~/path/to/spiringMessagesBash/spiringMessages.sh
+    ~/path/to/spiringMessagesBash/phrases.sh
     ```
 
 3. Save and close the file. For the changes to take effect, source the file:
