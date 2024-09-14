@@ -38,25 +38,15 @@ Run the script directly:
 ./phrases.sh
 ```
 
-## Customization
-
-To add or modify messages, edit the `messages.txt` file:
-
-```bash
-vim messages.txt
-```
-
-Add one message per line.
-
 ## Integration with .bashrc or .bash_profile
 
 To display an inspirational message every time you open a terminal, add the following line to your `.bashrc` or `.bash_profile` file:
 
 ```bash
-touch ~/path/to/spiringMessagesBash/phrases.sh
+touch ~/path/to/programingPhrases/phrases.sh
 ```
 
-Replace `~/path/to/spiringMessagesBash/phrases.sh` with the actual path to the script.
+Replace `~/path/to/programingPhrases/phrases.sh` with the actual path to the script.
 
 1. Open your `.bashrc` or `.bash_profile` file in an editor:
 
@@ -69,7 +59,7 @@ Replace `~/path/to/spiringMessagesBash/phrases.sh` with the actual path to the s
 2. Add the following line at the end of the file:
 
     ```bash
-    ~/path/to/spiringMessagesBash/phrases.sh
+    ~/path/to/programingPhrases/phrases.sh
     ```
 
 3. Save and close the file. For the changes to take effect, source the file:
