@@ -1,4 +1,4 @@
-# Daily spiring console messages 
+# Daily inspirational console messages 
 
 ## Overview
 
